@@ -40,13 +40,9 @@ body{
 #header:hover{
 	width: 350px;
 	padding-right: 20px;
-	cursor: pointer;
-	
+	cursor: pointer;}
 
-
-}
-
-li a{
+.navbar li a{
 	list-style-type: none;
 	outline-style: none;
 	transition:1s ease;
@@ -55,7 +51,7 @@ li a{
 
 }
 
-li{
+.navbar li{
 	margin-left: 36px;
 	display: inline;
 	font-size: 25px;
@@ -66,16 +62,30 @@ li{
 	padding-right: 90px;
 	transition:1s ease;
 }
-li a:hover{
+
+.navbar li a:hover{
 	text-decoration: none;
 	list-style-type: none;
-	
 }
-li:hover{
+
+.navbar li:hover{
 	text-decoration: none;
 	list-style-type: none;
 	background-color: rgb(91, 137, 198);	
+}
 
+.navbar li ul{
+	position: absolute;
+	border:1px solid black;
+	background-color: black;
+	color: white;
+	left: 50px;
+	top: 35px;
+	width: 300px;
+}
+
+li ul.suboptions{
+	position: absolute;
 }
 
 
@@ -97,7 +107,7 @@ li:hover{
 }
 
 #slider{
-	background-color: red;
+	
 	position: relative;
 	width: 100%;
 	height: 60%;

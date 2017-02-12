@@ -1,4 +1,5 @@
 class JbnController < ApplicationController
+	
   def homepage
   	
   end
@@ -10,5 +11,9 @@ class JbnController < ApplicationController
   end
 
   def solar
+  end
+
+  def product
+  	
   end
 end
