@@ -1,0 +1,124 @@
+body{
+	background: grey;
+}
+
+.container{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+//top_section
+
+#top_section{
+
+	position: absolute;
+	width: 98%;
+	height: 40%;
+}
+
+#header{
+
+	position: relative;
+	top: 12px;
+	left: -15px;
+	width: 300px;
+	height: 150px;
+	background-color: rgb(91, 137, 198);	
+	font-size: 40px;
+	text-align: center;
+	box-shadow:10px 10px 10px 0px;
+	border: 2px dashed black;
+	padding-top: 20px;
+	transition:1s ease;
+}
+
+
+#header:hover{
+	width: 350px;
+	padding-right: 20px;
+	cursor: pointer;
+	
+
+
+}
+
+li a{
+	list-style-type: none;
+	outline-style: none;
+	transition:1s ease;
+
+
+
+}
+
+li{
+	margin-left: 36px;
+	display: inline;
+	font-size: 25px;
+	padding-left: 90px;
+	position: relative;
+	top: 7px;
+	display: inline;
+	padding-right: 90px;
+	transition:1s ease;
+}
+li a:hover{
+	text-decoration: none;
+	list-style-type: none;
+	
+}
+li:hover{
+	text-decoration: none;
+	list-style-type: none;
+	background-color: rgb(91, 137, 198);	
+
+}
+
+
+.navbar{
+
+	position: relative;
+	top:50px;
+	background-color: black;
+}
+
+//middle_section--------------------
+
+#middle_section{
+
+	position: relative;
+	width: 100%;
+	top: 250px;
+	height: 100%;
+}
+
+#slider{
+	background-color: red;
+	position: relative;
+	width: 100%;
+	height: 60%;
+}
+
+//bottom_section
+
+#bottom_section{
+
+	width: 100%;
+	height: 40%;
+	background-color: brown;
+	position: relative;	
+}
+
+
+#footer{
+
+	position: relative;
+	width: 100%;
+	height: 10px;
+	left: 0px;
+	top: 0px;
+}

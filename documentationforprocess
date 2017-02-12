@@ -1,0 +1,26 @@
+Step by step procedure for my first websites in rails 
+
+step1: adding the controller 
+	Controllers:
+	1. jbn
+
+	views:
+	1. a) homepage b)solar c) about_us d) contact_us
+
+
+
+
+Step 2: adding the bootstrap gem
+
+1. gem "therubyracer"
+2.gem "less-rails"
+3.gem "twitter-bootstrap-rails"
+
+to install type " rails g bootstrap:install less"
+
+
+
+Step3 : adding the code or adjustments
+
+
+
